@@ -59,11 +59,11 @@ class _LogInState extends State<LogIn> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(top: 20),
-                    child: TextInput("الاسم الكامل للطالب"),
+                    child: TextInput("البريد الالكتروني"),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 20),
-                    child: TextInput("القسسم"),
+                    child: TextInput("الرمز السري"),
                   ),
                 ],
               ),
